@@ -1,0 +1,27 @@
+@media screen and (max-width: 1000px){
+    .navbar{
+        position: relative;
+    }
+
+    .menu{
+        display: none;
+    }
+    
+    .logo{
+        text-align: center;
+    }
+    .sobre{
+        flex: 100%;
+        text-align: center;
+        margin: 5%;
+    }
+    .sobre p{
+        text-align: center, justify;
+    }
+    .imagem{
+        flex: 100%;
+        text-align: center;
+        margin: 5%;
+    }
+}
+    

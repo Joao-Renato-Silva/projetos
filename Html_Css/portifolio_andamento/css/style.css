@@ -1,0 +1,356 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000bb;
+    font-size: 22px;
+}
+
+nav{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.438);
+    padding: 10px 10%;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+}
+
+.logo{
+    flex: 40%;
+    /* border: 1px solid black; */
+    cursor: pointer;
+}
+
+.menu{
+    /* border: 1px solid red; */
+    flex: 40%;
+    text-align: center;
+    margin: auto;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    padding: 0px 10px;
+    margin: 0px 10px;
+}
+
+.menu a:hover{
+    color: rgb(87, 87, 87);
+    border-bottom: 2px solid black;
+}
+
+span{
+    /* border: 1px solid red; */
+    padding: 15px 15px;
+    background-color: rgb(85, 65, 53);
+    border-radius: 20px;
+    margin-left: 25px;
+   
+}
+
+strong{
+    color: white;
+    font-weight: 500;
+    
+}
+
+strong:hover{
+    color: rgba(0, 0, 0, 0.733);
+}
+
+header{
+    height: 99vh;
+    background-image: url(../img/pexels-knownasovan-57690.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.meio{
+    background-color: rgba(31, 25, 25, 0.904);
+    margin: 0px;
+
+}
+
+.meio h1{
+    margin: 0px;
+    text-align: center;
+    color: #997c7cdd;
+    font-size: 3.5em;
+    padding-top: 70px;
+}
+
+section{
+    /* border: 1px solid black; */
+    padding: 80px 5%;
+    height: 2000px;
+    background-image: linear-gradient(to bottom,rgba(31, 25, 25, 0.904), rgb(65, 50, 41));
+    display: flex;
+
+}
+
+section h1{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.836);
+    border-bottom: 5px solid black;
+    padding-bottom: 10px;
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+.esquerda{
+    flex: 70%;
+    margin-right: 15px;
+    
+}
+
+.primeiro h2{
+    color: rgba(255, 255, 255, 0.548);
+    padding: 20px 15px;
+    text-align: center;
+    background-color: rgba(70, 70, 70, 0.438);
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+.primeiro{
+    /* border: 2px solid red; */
+    height: 50%;
+    
+}
+
+.imagens1{
+    float: right;
+    margin-right: 2%;
+    margin-top: 6%;
+    margin-left: 10%;
+}
+
+.primeiro h2{
+    color: rgba(255, 255, 255, 0.548);
+    padding: 20px 15px;
+    background-color: rgba(70, 70, 70, 0.438);
+    border-radius: 20px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.primeiroo h3, p{
+    color: white;
+}
+
+.primeiro h3{
+    margin-top: 8%;
+    text-align: center;
+}
+
+.primeiro p{
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+
+.primeiro a{
+    text-decoration: none;
+    color: rgb(115, 125, 255);
+    font-size: 1.5rem;
+    margin-left: 14%;
+}
+
+.imagens2{
+    float: right;
+    margin-right: 2%;
+    margin-top: 6%;
+    margin-left: 10%;
+}
+
+.segundo h2{
+    color: rgba(255, 255, 255, 0.548);
+    padding: 20px 15px;
+    background-color: rgba(70, 70, 70, 0.438);
+    border-radius: 20px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.segundo h3, p{
+    color: white;
+}
+
+.segundo h3{
+    margin-top: 8%;
+    text-align: center;
+}
+
+.segundo p{
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+
+.segundo a{
+    text-decoration: none;
+    color: rgb(115, 125, 255);
+    font-size: 1.5rem;
+    margin-left: 14%;
+}
+
+
+.direita{
+    /* border: 1px solid blue; */
+    flex: 70%;
+    margin-left: 15px;
+}
+
+.primeiro_direita h2{
+    color: rgba(255, 255, 255, 0.548);
+    padding: 20px 15px;
+    background-color: rgba(70, 70, 70, 0.438);
+    border-radius: 20px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.primeiro_direita h2{
+    color: rgba(255, 255, 255, 0.548);
+    padding: 20px 15px;
+    background-color: rgba(70, 70, 70, 0.438);
+    border-radius: 20px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.primeiro_direita h3, p{
+    color: white;
+}
+
+.primeiro_direita h3{
+    margin-top: 8%;
+    text-align: center;
+}
+
+.primeiro_direita p{
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+
+.primeiro_direita a{
+    text-decoration: none;
+    color: rgb(115, 125, 255);
+    font-size: 1.5rem;
+    margin-left: 14%;
+}
+
+footer{
+   background-color: rgb(65, 50, 41);
+   padding: 10px 15%;
+   border-top: 2px solid black;
+   margin: auto;
+   text-align: center;
+}
+
+footer h1{
+    color: rgb(151, 151, 151);
+}
+
+footer img{
+    margin: 1%;
+}
+
+@media (min-width: 375px) and (max-width: 500px){
+    nav{
+        padding: 0px 0px 0px 10%;
+    }
+    .logo img{
+        width: 100px;
+        margin: auto;
+        margin-top: 23px;
+        flex: 10%;
+    }
+    .menu{
+        flex: 90%;
+    }
+    .menu a{
+        font-size: 16px;
+        margin: 5px;
+        padding: 0px;
+    }
+    span{
+        padding: 0px 5px 5px 5px;
+        margin-left: 5px;
+    } 
+
+    header{
+        width: 100%;
+        background-size: cover;
+    }
+    
+    .meio{
+        font-size: 16px;
+        padding-top: 0px;
+    }
+
+    .meio h1{
+        font-size: 60px;
+        padding-top: 30px;
+    }
+    section{
+        display:block;
+        padding: 80px 0px 0px 10px;
+        height: 3750px;
+    }
+
+    .primeiro h2{
+        width: 100%;
+    }
+    
+    .imagem1{
+        width: 400px;
+        margin-left: 3%;
+        float: none;
+    }
+
+    .primeiro h3{
+        display: none;
+        
+    }
+
+    .primeiro a{
+        margin-left: 33%;
+    }
+ 
+    .segundo h2{
+        width: 100%;
+    }
+    .segundo a{
+        margin-left: 33%;
+    }
+    
+    .direita{
+        margin-right: 10px;
+        width: 100%;
+    }
+    .primeiro_direita{
+        width: 100%;
+    }
+    .primeiro_direita h2{
+        width: 90%;
+
+    }
+    .imagens2{
+    width: 400px;
+    padding-right: 10%;
+    margin: 0px;
+    }
+}
+ 

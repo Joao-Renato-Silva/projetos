@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+CU:wght@100..400&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-branco-abstrato_23-2148809724.jpg?size=626&ext=jpg&ga=GA1.1.1954831995.1709115184&semt=ais_user);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgba(39, 38, 38, 0.349);
+    padding: 0px 10%;
+    width: 100%;
+    display: flex;
+}
+
+.logo{
+    width: 120px;
+    margin: 5px;
+}
+
+.menu{
+    flex: 50%;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(214, 223, 88, 0.658);
+    font-size: 26px;
+    padding: 5px;
+    font-weight: bolder;
+    margin: 30px 30px;
+}
+
+a:hover{
+    color: rgb(158, 151, 106);
+    border-bottom: 1px solid salmon;
+    padding: 4px;
+}
+
+.lily{
+    width: 100%;
+    height: 700px;
+}
+
+.foto_lily{
+    background-color: #f9fc5e8c;
+    height: 670px;
+    width: 600px;
+    border-radius: 0% 40% 0% 40%;
+    float: left;
+}
+ 
+.lily h1{
+    text-align: center;
+    padding-top: 270px;
+    font-size: 3em;
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.lily p{
+    text-align: center;
+    font-size: 1.2em;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+
+.foto_verde{
+    background-color: #E3F2B3;
+    height: 670px;
+    width: 600px;
+    border-radius: 40% 0% 0% 40%;
+    float: right;
+    padding-left: 100px;
+}
+
+.verde h1{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 3em;
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.verde p{
+    text-align: center;
+    font-size: 1.2em;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.foto_azul{
+    background-color: #b3bdf2;
+    height: 670px;
+    width: 600px;
+    border-radius: 40% 0% 40% 0%;
+    float: left;    
+    margin-top: 400px;
+}
+
+.azul h1{
+    text-align: center;
+    padding-top: 500px;
+    font-size: 3em;
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+
+}
+
+.azul p{
+    text-align: center;
+    font-size: 1.2em;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+footer{
+    width: 100%;
+    margin-top: 350px;
+    text-align: center;
+}
+
+@media (min-width:350px) and (max-width: 500px){
+    nav{
+        width: 100%;
+    }
+    a{
+        padding:10px;
+        margin: 30px 5px 0px 0px;
+        font-size: 16px;
+    }
+    .lily{
+        padding-left: 100px;
+        text-align: center;
+    }
+    .lily h1{
+        padding-right: 80px;
+    }
+    .lily p{
+        padding-right: 80px;
+    }
+    .foto_lily{
+        height: 350px;
+        width: 300px;
+        border-radius: 25% 25% 25% 25%;
+    }
+    --
+    .verde{
+        padding-left: 100px;
+        text-align: center;
+    }
+    .verde h1{
+        padding-top: 50px;
+    }
+    .verde p{
+        margin: 0px 10%;
+    }
+    .foto_verde{
+        height:340px;
+        width: 340px;
+        padding-right: 80px;
+        float: none;
+        border-radius: 25% 25% 25% 25%;
+        margin-left:70px;
+    }
+    --
+    .azul{
+        padding-left: 100px;
+        text-align: center;
+    }
+    .azul h1{
+        padding-top: 50px;
+    }
+    .azul p{
+        margin: 0px 10%;
+    }
+    .foto_azul{
+        height:340px;
+        width: 340px;
+        float: none;
+        border-radius: 25% 25% 25% 25%;
+        margin-left:70px;
+        margin-top: 100px;
+    }
+    footer{
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 640px){
+    nav{
+        width: 100%;
+    }
+    a{
+        padding:10px;
+        margin: 30px 5px 0px 0px;
+        font-size: 16px;
+    }
+    .lily{  
+        text-align: center;
+        float: left;
+        height: 400px;
+    }
+    .lily h1{
+        font-size: 20px;
+        padding-top: 120px;
+    }
+    .foto_lily{
+        height: 350px;
+        width: 300px;
+        border-radius:0% 40% 0% 40%;
+    }
+    --
+    .verde{
+        text-align: center;
+        float: right;
+        margin-top: 20%
+    }
+    .verde h1{
+        font-size: 20px;
+        padding-top: 500px
+    }
+    .foto_verde{
+        height:300px;
+        width: 300px;
+        padding-right: 80px;
+        border-radius: 40% 0% 0% 40%;
+    }
+    --
+    .azul{
+        text-align: center;
+        float: left;
+    }
+    .azul h1{
+        padding-top: 250px;
+        font-size: 20px;
+    }
+    .foto_azul{
+        height:340px;
+        width: 340px;
+        border-radius: 40% 0% 40% 0%;
+        margin-top:90px;
+    }
+    footer{
+        margin-top: 200px;
+    }
+}
+@media(min-width: 640px) and (max-width: 1000px){
+    nav{
+        width: 100%;
+    }
+    a{
+        padding:10px;
+        margin: 30px 5px 0px 0px;
+        font-size: 16px;
+    }
+    .lily{  
+        text-align: center;
+        float: left;
+        height: 400px;
+    }
+    .lily h1{
+        font-size: 20px;
+        padding-top: 120px;
+    }
+    .foto_lily{
+        height: 350px;
+        width: 300px;
+        border-radius:0% 40% 0% 40%;
+    }
+    --
+    .verde{
+        text-align: center;
+        float: right;
+        margin-top: 20%
+    }
+    .verde h1{
+        font-size: 20px;
+        padding-top: 500px
+    }
+    .foto_verde{
+        height:300px;
+        width: 300px;
+        padding-right: 80px;
+        border-radius: 40% 0% 0% 40%;
+    }
+    --
+    .azul{
+        text-align: center;
+        float: left;
+    }
+    .azul h1{
+        padding-top: 250px;
+        font-size: 20px;
+    }
+    .foto_azul{
+        height:340px;
+        width: 340px;
+        border-radius: 40% 0% 40% 0%;
+        margin-top:200px;
+    }
+    footer{
+        margin-top: 200px;
+    }
+}
+@media(min-width: 1000px) and (max-width: 1199px){
+    .foto_azul{
+        background-color: #b3bdf2;
+        height: 670px;
+        width: 600px;
+        border-radius: 40% 0% 40% 0%;
+        float: left;    
+        margin-top: 40px;
+    }
+    footer{
+        margin-top: 500px;
+    }
+}
+
+@media(min-width: 1200px){
+   .azul h1{
+    padding-top: 600px;
+   }
+    footer{
+        margin-top: 550px;
+    }
+
+}
+
+

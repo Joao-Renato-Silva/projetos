@@ -1,0 +1,102 @@
+@font-face {
+    font-family: logo;
+    src: url(../fonts/Shadowed\ Germanica.ttf);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    margin: 0px;
+    background-color: #000000c7;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar{
+    background-image: linear-gradient(to bottom , #a1a1a1, #000000c7);
+    background-color: #a1a1a1;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid black;
+
+}
+
+.logo{
+    flex: 20%;
+    margin-left: 10%;
+}
+
+.logo h1{
+    font-size: 54px;
+    font-family: logo;
+    font-weight: 500;
+    margin: 9px 0px;
+    text-shadow: 1px 1px 2px rgba(85, 85, 85, 0.39);
+}
+
+.menu{
+    flex: 50%;
+    margin-right: 10%;
+    text-align: right;
+}
+
+.menu a{
+    font-size: 31px;
+    font-weight: bold;
+    padding: 0px 18.5px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px rgba(85, 85, 85, 0.39);
+    font-family: "Crimson Text", serif;
+    margin: 10px 0px;
+}
+
+.menu a:hover{
+    color: white;
+    border-bottom:4px solid rgb(0, 0, 0);
+}
+
+.header{   
+    display: flex;
+    align-items: flex-start;
+    background-color: black;
+    background-image: url(../imagem/fundo-escuro-de-hexagonos-minimos_79603-1455.avif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.imagem{
+    flex: 40%;
+    margin-left: 5%;
+    float: left;
+    align-items: flex-start;
+    padding-top: 12px;
+}
+
+.sobre{
+    flex: 40%;
+    margin-right: 5%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 535px;
+    flex-flow: row wrap;
+    padding-top: 40px;
+}
+.sobre h2{
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.sobre p{
+    padding: 5px;
+    font-size: 19px;
+}
+

@@ -1,0 +1,35 @@
+.grama{
+    background-color: rgb(93, 185, 90);
+    text-align: center;
+    color: white;
+    border: 1px solid green;
+    border-radius: 15px;
+    padding: 5px 30px;
+}
+
+.poison{
+    background-color: rgb(40, 43, 219);
+    text-align: center;
+    color: white;
+    border: 1px solid green;
+    border-radius: 15px;
+    padding: 5px 30px;
+}
+
+.fogo{
+    background-color: rgb(155, 20, 20);
+    text-align: center;
+    color: white;
+    border: 1px solid rgb(145, 20, 20);
+    border-radius: 15px;
+    padding: 5px 30px;
+}
+
+.dragao{
+    background-color: rgb(112, 21, 105);
+    text-align: center;
+    color: white;
+    border: 1px solid rgb(114, 73, 73);
+    border-radius: 15px;
+    padding: 5px 30px;
+}
